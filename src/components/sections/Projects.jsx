@@ -33,7 +33,8 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://e-commercestore-20bj.onrender.com/"
+                  target="_blank"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
@@ -70,7 +71,8 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://nachammai-pest-control.vercel.app/"
+                  target="_blank"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
@@ -86,12 +88,12 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">Landing Page</h3>
+              <h3 className="text-xl font-bold mb-2">AI Mock Interview</h3>
               <p className="text-gray-400 mb-4">
-                Building Frontend Components with testinomials and contact information.
+                The AI generates customized interview questions based on the job description you provide.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["HTML", "CSS", "JavaScript"].map(
+                {["React", "Tailwind CSS", "Typescript", "Firebase", "Clerk Auth","ShadCn UI"].map(
                   (tech) => (
                     <span
                       key={tech}
@@ -110,7 +112,8 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://ai-mock-interview-cb3f5.web.app/"
+                  target="_blank"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
@@ -148,7 +151,47 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center ">
                 <a
-                  href="#"
+                  href="https://web-stock.onrender.com/"
+                  target="_blank"
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
+
+            <div
+              className="
+              glass p-6 rounded-xl border border-white/10 
+              hover:-translate-y-1 hover:border-blue-500/30
+              hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
+              transition-all
+            "
+            >
+              <h3 className="text-xl font-bold mb-2">JDS International Exports(Internship Project)</h3>
+              <p className="text-gray-400 mb-4">
+                Web Applications with attractive UI,chat system integration and also contact form connectivity using emailjs.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["React", "TailwindCSS", "EmailJS"].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="
+                      bg-blue-500/10 text-blue-500 py-1 px-3 
+                      rounded-full text-sm
+                      transition
+                      hover:bg-blue-500/20 hover:-translate-y-0.5
+                      hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]
+                    "
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="flex justify-between items-center">
+                <a
+                  href="https://www.jdsinternationalexport.com/"
+                  target="_blank"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
